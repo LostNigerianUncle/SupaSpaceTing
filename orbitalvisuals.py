@@ -1,7 +1,7 @@
 import numpy as np
 from os import name
-from physics import euler_step # type: ignore
-from constants import MU_EARTH, R_EARTH # type: ignore
+from orbitalphysics import euler_step
+from orbitalconstants import MU_EARTH, R_EARTH
 
 def circular_orbit_velocity(altitude):
     """
