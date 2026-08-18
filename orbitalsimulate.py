@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt # type: ignore
-from simulate import run_simulation # type: ignore
-from constants import R_EARTH # type: ignore
+import matplotlib.pyplot as plt
+from orbitalsimulate import run_simulation
+from orbitalconstants import R_EARTH
 
 def plot_orbit(positions, title = "2D Orbital Simulation (Euler Integration)"):
     fig, ax = plt.subplots(figsize = (6, 6)) 
