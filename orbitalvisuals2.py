@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from orbitalsimulate import run_simulation
+from orbitalsimulate2 import run_simulation
 from orbitalconstants import R_EARTH
 
 def plot_orbit(positions, title = "2D Orbital Simulation (Euler Integration)"):
